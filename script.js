@@ -16,7 +16,7 @@ document.getElementById("student_form").addEventListener("submit",function(e){
 
     // Guardar datos en el array
 
-    const student = (name, last_name, grade);
+    const student = {name, last_name, grade};
     students.push(student);
     add_students_row(student);
     this.reset(); 
